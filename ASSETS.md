@@ -4,6 +4,7 @@ Toutes les images sont dans `public/assets/img/` (format WebP, noms en minuscule
 
 ## Déjà en place
 
+- `logo-4f.webp` : logo 4 Fondations (menu et pied de page)
 - `entete.webp` : illustration des 4 fondations (accueil)
 - `fond-donnez.webp` : fond du bandeau « Donnez pour le parcours d'une vie »
 - `fond-a-propos.webp` : fond de l'en-tête de la page À propos
@@ -16,7 +17,6 @@ La trousse donateurs (`public/assets/trousse-donateurs.pdf`) est aussi en place.
 
 | Nom attendu | Image d'origine |
 |---|---|
-| `logo-4f.png` | https://donnezunsens.org/wp-content/uploads/2024/10/4f.png (logo 4 Fondations, en-tête et pied de page) |
 | `equipe-claire.png` | https://donnezunsens.org/wp-content/uploads/2025/10/attachment.png |
 | `equipe-marie-sol.jpg` | https://donnezunsens.org/wp-content/uploads/2024/11/PhotoMSol2024.jpeg |
 | `equipe-claude-elaine.jpg` | https://donnezunsens.org/wp-content/uploads/2024/11/CEGEP.jpeg |
