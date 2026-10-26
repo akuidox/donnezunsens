@@ -1,73 +1,28 @@
 # Images — 4 Fondations
 
-Placez chaque fichier dans `public/assets/img/` avec **exactement** le nom indiqué (minuscules). Tant qu'une image manque, le site affiche un emplacement « Photo à venir ». Si un logo manque, le site affiche le nom de la fondation en texte.
+Toutes les images sont dans `public/assets/img/` (format WebP, noms en minuscules). Tant qu'une image manque, le site affiche un emplacement « Photo à venir ». Si un logo manque, le site affiche le nom en texte.
 
-Astuce : ouvrez chaque lien, puis clic droit → Enregistrer l'image sous… avec le nouveau nom. Les fichiers .jpg/.png peuvent être remplacés par des .webp, à condition de changer l'extension dans le HTML.
+## Déjà en place
 
-## Logos et décor
+- `entete.webp` : illustration des 4 fondations (accueil)
+- `fond-donnez.webp` : fond du bandeau « Donnez pour le parcours d'une vie »
+- `fond-a-propos.webp` : fond de l'en-tête de la page À propos
+- `logo-cegep.webp`, `logo-hopital.webp`, `logo-centraide.webp`, `logo-pallia-vie.webp` : découpés dans l'illustration d'entête
+- `cegep-1` à `cegep-4`, `hopital-1` à `hopital-3`, `centraide-1` à `centraide-4`, `pallia-vie-1` à `pallia-vie-7` (.webp) : carrousels
 
-| Nouveau nom | Image d'origine |
+## Encore à ajouter
+
+| Nom attendu | Image d'origine |
 |---|---|
-| `logo-4f.png` | https://donnezunsens.org/wp-content/uploads/2024/10/4f.png |
-| `entete.png` | https://donnezunsens.org/wp-content/uploads/2023/10/fondation_header.png |
-| `fond-donnez.jpg` | https://donnezunsens.org/wp-content/uploads/2023/10/bg2.jpg |
-| `fond-a-propos.jpg` | https://donnezunsens.org/wp-content/uploads/2023/11/Photos_Podcast.jpg |
-| `logo-cegep.jpg` | https://donnezunsens.org/wp-content/uploads/2023/10/FHSJ_logo_H_coul_crop.jpg |
-| `logo-hopital.png` | https://donnezunsens.org/wp-content/uploads/2023/10/FHSJ_logo_H_coul_crop.png |
-| `logo-centraide.png` | https://donnezunsens.org/wp-content/uploads/2023/10/centraide.png |
-| `logo-pallia-vie.png` | https://donnezunsens.org/wp-content/uploads/2023/11/pallia-vie.png |
-
-## Fondation du Cégep de Saint-Jérôme
-
-| Nouveau nom | Image d'origine |
-|---|---|
-| `cegep-1.jpg` | https://donnezunsens.org/wp-content/uploads/2023/11/vue-exte.jpg |
-| `cegep-2.jpg` | https://donnezunsens.org/wp-content/uploads/2023/11/Photos_Podcast.jpg |
-| `cegep-3.jpg` | https://donnezunsens.org/wp-content/uploads/2023/11/gagnantes-3.jpg |
-| `cegep-4.jpg` | https://donnezunsens.org/wp-content/uploads/2023/11/cheminots-1.jpg |
-
-## Fondation Hôpital régional Saint-Jérôme
-
-| Nouveau nom | Image d'origine |
-|---|---|
-| `hopital-1.jpg` | https://donnezunsens.org/wp-content/uploads/2023/11/CHSLD.jpg |
-| `hopital-2.jpg` | https://donnezunsens.org/wp-content/uploads/2023/11/1000001603.jpg |
-| `hopital-3.jpg` | https://donnezunsens.org/wp-content/uploads/2023/11/czt-visiste-26-mai-2023.jpg |
-
-## Centraide Laurentides
-
-| Nouveau nom | Image d'origine |
-|---|---|
-| `centraide-1.jpg` | https://donnezunsens.org/wp-content/uploads/2023/11/Briser_isolement.jpg |
-| `centraide-2.jpg` | https://donnezunsens.org/wp-content/uploads/2023/11/Soutenir_dev_jeunes.jpg |
-| `centraide-3.jpg` | https://donnezunsens.org/wp-content/uploads/2023/11/Milieu_vie.jpg |
-| `centraide-4.jpg` | https://donnezunsens.org/wp-content/uploads/2023/11/Assurer_essentiel.jpg |
-
-## Pallia-Vie
-
-| Nouveau nom | Image d'origine |
-|---|---|
-| `pallia-vie-1.jpg` | https://donnezunsens.org/wp-content/uploads/2025/08/IMG_3843-scaled.jpg |
-| `pallia-vie-2.jpg` | https://donnezunsens.org/wp-content/uploads/2025/08/IMG_7479-scaled.jpeg |
-| `pallia-vie-3.jpg` | https://donnezunsens.org/wp-content/uploads/2025/08/Mme-Carrier-et-Lily-2.jpg |
-| `pallia-vie-4.jpg` | https://donnezunsens.org/wp-content/uploads/2023/11/1_Piano_Salon-MSP_Pallia-Vie.jpg |
-| `pallia-vie-5.jpg` | https://donnezunsens.org/wp-content/uploads/2023/11/3_Chambre-Maison-soins-palliatifs-Pallia-Vie.jpg |
-| `pallia-vie-6.jpg` | https://donnezunsens.org/wp-content/uploads/2023/11/4_Jardin_Maison-soins-palliatifs-Pallia-Vie.jpg |
-| `pallia-vie-7.jpg` | https://donnezunsens.org/wp-content/uploads/2025/08/IMG_2695-scaled.jpg |
-
-## Page À propos (portraits)
-
-| Nouveau nom | Image d'origine |
-|---|---|
+| `logo-4f.png` | https://donnezunsens.org/wp-content/uploads/2024/10/4f.png (logo 4 Fondations, en-tête et pied de page) |
 | `equipe-claire.png` | https://donnezunsens.org/wp-content/uploads/2025/10/attachment.png |
 | `equipe-marie-sol.jpg` | https://donnezunsens.org/wp-content/uploads/2024/11/PhotoMSol2024.jpeg |
 | `equipe-claude-elaine.jpg` | https://donnezunsens.org/wp-content/uploads/2024/11/CEGEP.jpeg |
 | `equipe-raphaelle.jpg` | https://donnezunsens.org/wp-content/uploads/2024/11/Hopital.jpeg |
-
-## Document
-
-| Nouveau nom | Fichier d'origine |
-|---|---|
 | `public/assets/trousse-donateurs.pdf` (pas dans img/) | https://donnezunsens.org/wp-content/uploads/2024/10/Formulaire-final-pour-client-don-planifie.pdf |
 
-Conseil : passez les photos dans https://squoosh.app (qualité ~75, largeur max 1600 px) pour un site rapide. Les photos « -scaled » de Pallia-Vie sont lourdes.
+Pour un fichier .webp à la place, changez l'extension dans le HTML.
+
+## Remplacer une photo
+
+Gardez le même nom de fichier. Les carrousels affichent les photos en 4:3 (recadrées au centre). Passez les photos dans https://squoosh.app (WebP qualité ~75–80, largeur max 1400 px).

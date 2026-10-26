@@ -66,7 +66,7 @@ p { margin: 0 0 1.1em; }
 /* Donnez pour le parcours d’une vie */
 .parcours {
   padding: 120px 0 130px;
-  background: linear-gradient(rgba(0,0,0,.58), rgba(0,0,0,.49)), url("/assets/img/fond-donnez.jpg") center / cover, #4a4f55;
+  background: linear-gradient(rgba(0,0,0,.58), rgba(0,0,0,.49)), url("/assets/img/fond-donnez.webp") center / cover, #4a4f55;
 }
 
 /* Fondations */
@@ -132,7 +132,7 @@ p { margin: 0 0 1.1em; }
 /* Page À propos */
 .page-hero {
   padding: 90px 0 70px;
-  background: linear-gradient(rgba(255,255,255,.68), rgba(255,255,255,.93)), url("/assets/img/fond-a-propos.jpg") center / cover;
+  background: linear-gradient(rgba(255,255,255,.68), rgba(255,255,255,.93)), url("/assets/img/fond-a-propos.webp") center / cover;
 }
 .page-hero h1 { font-size: clamp(36px, 5vw, 56px); color: #222; margin: 0; }
 .person { padding: 70px 0; }
@@ -175,3 +175,6 @@ p { margin: 0 0 1.1em; }
 @media (prefers-reduced-motion: reduce) {
   html, .track { scroll-behavior: auto; }
 }
+
+/* Logo Pallia-Vie lisible sur fond marine */
+.f-pallia .found-logo img { background: #fff; padding: 14px 18px; border-radius: 10px; }
