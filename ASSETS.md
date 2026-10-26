@@ -10,6 +10,8 @@ Toutes les images sont dans `public/assets/img/` (format WebP, noms en minuscule
 - `logo-cegep.webp`, `logo-hopital.webp`, `logo-centraide.webp`, `logo-pallia-vie.webp` : découpés dans l'illustration d'entête
 - `cegep-1` à `cegep-4`, `hopital-1` à `hopital-3`, `centraide-1` à `centraide-4`, `pallia-vie-1` à `pallia-vie-7` (.webp) : carrousels
 
+La trousse donateurs (`public/assets/trousse-donateurs.pdf`) est aussi en place.
+
 ## Encore à ajouter
 
 | Nom attendu | Image d'origine |
@@ -19,7 +21,6 @@ Toutes les images sont dans `public/assets/img/` (format WebP, noms en minuscule
 | `equipe-marie-sol.jpg` | https://donnezunsens.org/wp-content/uploads/2024/11/PhotoMSol2024.jpeg |
 | `equipe-claude-elaine.jpg` | https://donnezunsens.org/wp-content/uploads/2024/11/CEGEP.jpeg |
 | `equipe-raphaelle.jpg` | https://donnezunsens.org/wp-content/uploads/2024/11/Hopital.jpeg |
-| `public/assets/trousse-donateurs.pdf` (pas dans img/) | https://donnezunsens.org/wp-content/uploads/2024/10/Formulaire-final-pour-client-don-planifie.pdf |
 
 Pour un fichier .webp à la place, changez l'extension dans le HTML.
 
