@@ -55,5 +55,22 @@ document.querySelectorAll('[data-slider]').forEach((slider) => {
   mark();
 });
 
+// Vidéos YouTube : l'image s'affiche d'abord, la vidéo se charge au clic
+document.querySelectorAll('.yt').forEach((link) => {
+  link.addEventListener('click', (e) => {
+    if (!/^https?:$/.test(location.protocol)) return; // fichier local : ouvre YouTube
+    e.preventDefault();
+    const f = document.createElement('iframe');
+    f.src = 'https://www.youtube-nocookie.com/embed/' + link.dataset.yt + '?autoplay=1&rel=0';
+    f.title = link.getAttribute('aria-label').replace('Lire la vidéo : ', '');
+    f.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen';
+    f.allowFullscreen = true;
+    const box = document.createElement('div');
+    box.className = 'video';
+    box.appendChild(f);
+    link.replaceWith(box);
+  });
+});
+
 // Année courante dans le pied de page
 document.querySelectorAll('[data-year]').forEach((el) => { el.textContent = new Date().getFullYear(); });
