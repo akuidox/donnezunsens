@@ -57,6 +57,8 @@ document.querySelectorAll('[data-slider]').forEach((slider) => {
 
 // Vidéos YouTube : l'image s'affiche d'abord, la vidéo se charge au clic
 document.querySelectorAll('.yt').forEach((link) => {
+  const thumb = link.querySelector('img');
+  thumb.addEventListener('error', () => { thumb.style.display = 'none'; });
   link.addEventListener('click', (e) => {
     if (!/^https?:$/.test(location.protocol)) return; // fichier local : ouvre YouTube
     e.preventDefault();
